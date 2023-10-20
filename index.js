@@ -17,7 +17,7 @@ app.get("/clients", (req, res) => {
 app.get("/services", (req, res) => {
   res.send(services);
 });
-app.get("/servicesSections", (req, res) => {
+app.get("/services-sections", (req, res) => {
   res.send(servicesSections);
 });
 
